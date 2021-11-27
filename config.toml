@@ -1,4 +1,4 @@
-baseURL = "https://yerkoescalona.github.io/yerkoescalona/"
+baseURL = "https://yerkoescalona.github.io/"
 title = "Yerko Escalona"
 themesDir = "./themes"
 theme = "m10c"
