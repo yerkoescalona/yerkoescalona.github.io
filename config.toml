@@ -1,67 +1,61 @@
-baseURL = "https://yerkoescalona.github.io/"
-title = "Yerko Escalona"
-themesDir = "./themes"
-theme = "m10c"
+baseURL = "/"
+languageCode = "en-us"
+theme = "poison"
 paginate = 10
-
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
+pluralizelisttitles = false
 
 [params]
-  author = "Yerko Escalona"
-  description = "Ser vivo. Animal con cabeza, tronco y extremidades. Habitante del planeta Tierra. Persona humana. ... y  otras etiquetas, producto de delirios mentales humanos."
-  menu_item_separator = " - "
-  [[params.social]]
-    icon = "github"
-    name = "Github"
-    url = "https://github.com/yerkoescalona"
-  [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/yerkoescalona"
-  [[params.social]]
-    icon = "facebook"
-    name = "Faecebook"
-    url = "https://www.facebook.com/y33333rk0000033333sc4l000000n44444444/"
-  [[params.social]]
-    icon = "instagram"
-    name = "Instagram"
-    url = "https://www.instagram.com/yerkoescalona/"
+    brand = "Yerko Escalona"                    # name of your site - appears in the sidebar
+    brand_image = "/images/avatar.jpg"    # path to the image shown in the sidebar
+    description = "Científico tratando de reinventarse..."
+    dark_mode = true                    # optional - defaults to false
 
-  # Default theme
-  #[params.style]
-  #  darkestColor = "#242930"
-  #  darkColor = "#353b43"
-  #  lightColor = "#afbac4"
-  #  lightestColor = "#ffffff"
-  #  primaryColor = "#57cc8a"
+    # MENU PLACEHOLDER
+    # Menu dict keys:
+        # Name:         The name to display on the menu.
+        # URL:          The directory relative to the content directory.
+        # HasChildren:  If the directory's files should be listed.  Default is true.
+        # Limit:        If the files should be listed, how many should be shown.
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
 
-  # Green theme
-  #[params.style]
-  #  darkestColor = "#315659"
-  #  darkColor = "#253031"
-  #  lightColor = "#96a879"
-  #  lightestColor = "#fff"
-  #  primaryColor = "#dad865"
+    # Links to your socials.  Delete any you don't need/use. 
+    github_url = "https://github.com/yerkoescalona"
+    linkedin_url = "https://www.linkedin.com/in/yerko-escalona-791097227/"
+    twitter_url = "https://twitter.com/yerkoescalona"
+    #discord_url = "https://discord.com"
+    #youtube_url = "https://youtube.com"
+    #instagram_url = "https://instagram.com"
+    #facebook_url = "https://facebook.com"
 
-  # Red theme
-  #[params.style]
-  #  darkestColor = "#d35050"
-  #  darkColor = "#212121"
-  #  lightColor = "#d6d6d6"
-  #  lightestColor = "#d3d3d3"
-  #  primaryColor = "#ffffff"
+    # Hex colors for your sidebar.
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_img_border_color = "#515151"    # default is #515151
+    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_socials_color = "#FFF"          # default is #FFF
+    moon_sun_color = "#FFF"                 # default is #FFF
+    moon_sun_background_color = "#515151"   # default is #515151
+
+    # Hex colors for your content in light mode.
+    text_color = "#222"             # default is #222
+    content_bg_color = "#FAF9F6"    # default is #FAF9F6
+    post_title_color = "#303030"    # default is #303030
+    list_color = "#5a5a5a"          # default is #5a5a5a
+    link_color = "#268bd2"          # default is #268bd2
+    date_color = "#515151"          # default is #515151
+
+    # Hex colors for your content in dark mode
+    text_color_dark = "#eee"            # default is #eee
+    content_bg_color_dark = "#121212"   # default is #121212
+    post_title_color_dark = "#DBE2E9"   # default is #DBE2E9
+    list_color_dark = "#9d9d9d"         # default is #9d9d9d
+    link_color_dark = "#268bd2"         # default is #268bd2
+    date_color_dark = "#9a9a9a"         # default is #9a9a9a
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
