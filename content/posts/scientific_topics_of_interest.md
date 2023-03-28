@@ -16,7 +16,7 @@ Most of the knowledge associated with proteins is about structured proteins with
 
 Most of the soils have a clear dark/brown colored layer. This layer comprises hundreds of years of decomposition of different organic compounds called Soil Organic Matter (SOM). SOM is composed of heterogenous and dispersed organic compounds in connection with the soil mineral matrix. This mineral matrix presents itself as an oxidative environment with different ionic species. The variety of organic compounds corresponds to compounds riched with aromatic rings and carboxyl groups. In this sea of possibilities, I have tried to understand the interactions of these compounds.
 
-![SOM](images/som.jpg)
+![SOM](/images/som.jpg)
 
 ## Ionic channels
 
