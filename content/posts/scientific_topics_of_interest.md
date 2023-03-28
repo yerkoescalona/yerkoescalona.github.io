@@ -10,11 +10,13 @@ tags: ["Science"]
 
 Most of the knowledge associated with proteins is about structured proteins with a specific function. However, most of the proteins don't have a specific or unique structure, and this doesn't mean a lack of function. This makes IDPs incredibly interesting. The formation of protein-protein interactions is the basis of how proteins evolve for different functions. 
 
-![Alt Text](/images/idps.gif)
+![IDPs](/images/idps.gif)
 <!--more--> 
 ## Soil Organic Matter (SOM)
 
 Most of the soils have a clear dark/brown colored layer. This layer comprises hundreds of years of decomposition of different organic compounds called Soil Organic Matter (SOM). SOM is composed of heterogenous and dispersed organic compounds in connection with the soil mineral matrix. This mineral matrix presents itself as an oxidative environment with different ionic species. The variety of organic compounds corresponds to compounds riched with aromatic rings and carboxyl groups. In this sea of possibilities, I have tried to understand the interactions of these compounds.
+
+![SOM](images/som.jpg)
 
 ## Ionic channels
 
