@@ -2,8 +2,11 @@
 ## SOM research
 
 **Escalona, Yerko**, Drazen Petrov, and Chris Oostenbrink. 
-2021. “<span class="nocase">Exploring the Macroscopic Properties of Humic Substances
-using Modeling and Molecular Simulations \[to be submitted\]</span>.”
+2023. “<span class="nocase">Exploring the Macroscopic Properties of Humic Substances
+using Modeling and Molecular Simulations \[accepted\]</span>.” *Agronomy MDPI*, 2023.
+
+Edgar Galica-Andres, **Escalona, Yerko**, Drazen Petrov, and Chris Oostenbrink. 
+“<span class="nocase">Molecular Dynamics Simulations up to Earth: Modeling of Soil Organic Matter \[accepted\]</span>.” *Comprehensive Computational Chemistry*, 2023.
 
 **Escalona, Yerko**, Drazen Petrov and Chris Oostenbrink.
 2021. “<span class="nocase">Modeling soil organic matter: Changes
@@ -32,9 +35,10 @@ hydrogen bonds</span>.” *Geoderma* 401 (June): 115237.
 ## Graphene research
 
 **Escalona, Yerko**, Nicolas Espinoza, Chris Oostenbrink, and Jose Antonio
-Garate. 2021. “<span class="nocase">On the effects of induced
+Garate. 2022. “<span class="nocase">On the effects of induced
 polarizability at the water-graphene interface via classical
-charge-on-spring models \[to be submitted\]</span>.”
+charge-on-spring models</span>.” *Phys. Chem. Chem. Phys.*, 2022,24, 7748-7758.
+<https://doi.org/10.1039/D1CP05573A>.
 
 
 Garate, Jose Antonio, Alejandro Bernardin, **Escalona, Yerko**, Carlos
