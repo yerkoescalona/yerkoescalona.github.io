@@ -22,9 +22,13 @@ Most of the soils have a clear dark/brown colored layer. This layer comprises hu
 
 The cells have a barrier called a membrane. The connection with the environment is through channels, and the ones specified to transport ionic species are called ionic channels. However, cells can communicate with other cells. This is done in our cells through Gap Junction Channels (GJC). This novel channel between cell permits electrical synapsis, or fast interactions between cells. The complexity of these channels relies on the multiple interactions of their subunits and how they filter positive ions.
 
+![GJC](/images/gjc.png)
+
 ## Graphene interactions
 
 With the increasing usage of nanoparticles, the understanding of the interaction with our bodies becomes necessary. For starters, we need to understand the interaction of simple molecules with graphene. The first and most important in the list, is water. The water-graphene interaction depends on the graphene layer's polarizability with the water molecules' polarisability. These interactions can be investigated using molecular dynamics, taking into account the polarizability of the molecules.
+
+![graphene](/images/graphene.gif)
 
 ## Structural bioinformatics
 
