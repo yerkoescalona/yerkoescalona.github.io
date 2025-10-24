@@ -1,12 +1,14 @@
 
 ## SOM research
 
-**Escalona, Yerko**, Drazen Petrov, and Chris Oostenbrink. 
-2023. “<span class="nocase">Exploring the Macroscopic Properties of Humic Substances
-using Modeling and Molecular Simulations \[accepted\]</span>.” *Agronomy MDPI*, 2023.
+**Escalona, Yerko**, Drazen Petrov, Edgar Galicia-Andrés, and Chris Oostenbrink.
+2023. "<span class="nocase">Exploring the Macroscopic Properties of Humic Substances
+Using Modeling and Molecular Simulations</span>." *Agronomy* 13 (4): 1044.
+<https://doi.org/10.3390/agronomy13041044>.
 
-Edgar Galica-Andres, **Escalona, Yerko**, Drazen Petrov, and Chris Oostenbrink. 
-“<span class="nocase">Molecular Dynamics Simulations up to Earth: Modeling of Soil Organic Matter \[accepted\]</span>.” *Comprehensive Computational Chemistry*, 2023.
+Galicia-Andrés, Edgar, **Escalona, Yerko**, Mathias Gotsmy, Chris Oostenbrink, and Drazen Petrov.
+2023. "<span class="nocase">Molecular Dynamics Simulations up to Earth: Modeling of Soil Organic Matter</span>." *Reference Module in Chemistry, Molecular Sciences and Chemical Engineering; Comprehensive Computational Chemistry*, Elsevier.
+<https://doi.org/10.1016/B978-0-12-821978-2.00106-9>.
 
 **Escalona, Yerko**, Drazen Petrov and Chris Oostenbrink.
 2021. “<span class="nocase">Modeling soil organic matter: Changes
