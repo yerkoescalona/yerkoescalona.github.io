@@ -12,7 +12,7 @@ Dataframe operations form the foundation of modern data science workflows, yet r
 
 I've implemented operations like merge, reduce, replace, forward-fill, and mathematical transformations that work identically across all frameworks. Extensive benchmarking infrastructure—with synthetic datasets at small, medium, and large scales—ensures performance optimization while maintaining consistent behavior.
 
-![DataFrames](/images/dataframes.png)
+<img src="/images/dataframes.png" alt="DataFrames" style="max-width: 600px; width: 100%; height: auto;">
 <!--more-->
 
 ## Bioprocess Modeling and Simulation
@@ -20,4 +20,4 @@ I've implemented operations like merge, reduce, replace, forward-fill, and mathe
 Bioprocess engineering requires mathematical modeling of complex unit operations. My work focuses on developing simulation engines ranging from reactors, chromatography and filtration. These models use iterative step-by-step calculations and mass balance equations to predict system behavior for bioprocess optimization.
 
 
-![Process Engine](/images/process_engine.png)
+<img src="/images/process_engine.png" alt="Process Engine" style="max-width: 600px; width: 100%; height: auto;">
