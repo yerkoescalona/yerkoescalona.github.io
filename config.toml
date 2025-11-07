@@ -1,8 +1,15 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "poison"
-paginate = 10
 pluralizelisttitles = false
+
+[pagination]
+    pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
     brand = "Yerko Escalona"                    # name of your site - appears in the sidebar
