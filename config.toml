@@ -4,6 +4,10 @@ title = "Yerko Escalona"
 theme = "rusty-typewriter"
 pluralizelisttitles = false
 
+[services]
+    [services.googleAnalytics]
+        ID = "G-XC6T0LK1MF"
+
 [pagination]
     pagerSize = 10
 
