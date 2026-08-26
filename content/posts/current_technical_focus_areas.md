@@ -2,7 +2,7 @@
 title: "Current Technical Focus Areas"
 date: 2025-10-25
 draft: false
-series: "Science"
+series: ["Science"]
 tags: ["Data Science", "Computing"]
 ---
 

@@ -2,7 +2,7 @@
 title: "gromos-rs: A Rust Molecular Dynamics Engine, Built to Teach"
 date: 2026-08-16
 tags: ["Molecular Dynamics", "Rust", "Structural Bioinformatics", "Computing"]
-series: "Science"
+series: ["Science"]
 description: "Building a Rust-based MD simulator with Python bindings."
 ---
 

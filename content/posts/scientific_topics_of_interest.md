@@ -2,7 +2,7 @@
 title: "Scientific Topics of Interest"
 date: 2023-01-17
 draft: false
-series: "Science"
+series: ["Science"]
 tags: ["Science"]
 ---
 

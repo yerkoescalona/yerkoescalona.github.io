@@ -1,0 +1,27 @@
+{{- $title := .title -}}
+{{- $items := .items -}}
+
+<h2>{{- $title -}}</h2>
+<div class="flat-list">
+  {{- range first (default 5 site.Params.rtwt.home.countRecent) $items -}}
+    {{- $thumb := "" -}}
+    {{- $matches := findRE `src="[^"]+"` .Content 1 -}}
+    {{- with $matches -}}
+      {{- $thumb = index . 0 | strings.TrimPrefix `src="` | strings.TrimSuffix `"` -}}
+    {{- end -}}
+    <div class="flat-list-item">
+      <div>
+        <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a>
+        <time class="text-sm dim" style="float: right;" datetime="2023-05-02T00:00:00Z">
+          {{- dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date -}}
+        </time>
+      </div>
+      <div class="flat-list-summary-row{{ if $thumb }} has-thumb{{ end }}">
+        {{- with $thumb -}}
+          <img class="flat-list-thumb" src="{{ . }}" alt="" loading="lazy" />
+        {{- end -}}
+        <small><p>{{- partial "components/summary.html" . -}}</p></small>
+      </div>
+    </div>
+  {{- end -}}
+</div>

@@ -2,7 +2,7 @@
 title: "Three Ways Into Forró: Sequencer, Practice Log, and a VS Code Theme"
 date: 2026-08-15
 tags: ["Forró", "Music", "Web Audio", "Design Systems", "VS Code"]
-series: "Projects"
+series: ["Projects"]
 description: "How a shared obsession with forró turned into three very different side projects: a rhythm sequencer, a bilingual percussion practice log, and VS Code theme."
 ---
 

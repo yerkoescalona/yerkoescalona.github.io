@@ -1,0 +1,24 @@
+<div role="navigation" aria-label="Main">
+  <div class="nav-left" style="display:inline-flex;align-items:center;height:50px;">
+    <div class="nav-item">
+      <a{{ if .IsHome }} class="nav__link--active"{{ end }} href="{{- absURL "" -}}">{{- i18n "breadcrumb_home" -}}</a>
+    </div>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+        {{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
+      </div>
+    </div>
+    <a id="nav-dropdown-button" href="#">
+      {{- partial "svg/menu.svg" -}}
+    </a>
+    <div id="nav-menu">
+      {{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
+    </div>
+    <a id="theme-switcher" href="#">
+      {{- partial "svg/sun.svg" -}}
+      {{- partial "svg/moon.svg" -}}
+    </a>
+  </div>
+</div>

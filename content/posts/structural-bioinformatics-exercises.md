@@ -2,7 +2,7 @@
 title: "Teaching Students to Read One Protein Deeply"
 date: 2026-08-22
 tags: ["Structural Bioinformatics", "Teaching", "Python"]
-series: "Teaching"
+series: ["Teaching"]
 description: "The idea behind the structural bioinformatics course materials I write for the Bio Data Science program at FHWN: fewer tools, one protein, real depth."
 ---
 
