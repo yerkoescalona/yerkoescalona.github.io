@@ -14,6 +14,8 @@ The obvious way to teach structural bioinformatics is a tour: a week on the PDB,
 
 That gap is what I built the course materials to close. Every notebook isn't a tutorial on a tool in isolation — it's a lens for looking at a protein, and all the lenses are meant to be pointed at the same subject over the course of the semester.
 
+![Figures from the course notebooks: resolution of the X-ray structures in a protein family, B-factors along 1FSZ, a multiple sequence alignment, and AlphaFold confidence and predicted aligned error for p53](/images/structural-bioinformatics-figures.webp)
+
 ## One protein, several lenses
 
 The structure of the materials follows how a researcher actually approaches an unfamiliar protein, not how a software package happens to be organized. First you ask what's already known about it — pulling it from the database, reading its metadata, understanding what its resolution and quality metrics are actually telling you. Then you ask what its structure means — evaluating a model rather than just admiring it. Then you ask how it behaves — because a static structure is a single frame of something that moves, and the physics of that motion is where a lot of biological function actually lives. And finally you ask how it interacts — what fits into it, and why.
@@ -25,3 +27,5 @@ None of those questions is more "advanced" than the others; they're just differe
 The materials are deliberately built so a student can carry a single protein of their own choosing across all of it — the same PDB entry gets queried, modeled, simulated, and docked into, by the same person, across the same semester. That continuity is the actual pedagogical bet: a student who has spent months with one protein, looked at it from every angle available, and had to defend judgments about it at each stage, is no longer doing an exercise. They're doing what a researcher does with a new structure on their desk — building a case, layer by layer, for what it is and how it works.
 
 That's the outcome I care about more than any individual notebook: not that a student can run a docking script, but that by the end they can stand behind a protein the way a researcher would, because they've earned that understanding one lens at a time. The materials are shared under CC BY-NC-SA 4.0, so other instructors building the same kind of depth-over-breadth course are welcome to it.
+
+[![The structural-bioinformatics-exercises repository on GitHub](/images/structural-bioinformatics-exercises-repo.webp)](https://github.com/yerkoescalona/structural-bioinformatics-exercises)
